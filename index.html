@@ -1,0 +1,33 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">/
+    <title >Mini-spotify</title>
+    <link ref="stylesheet" href="style.css"/>
+
+</head>
+<body>
+    <!--barra lateral-->
+    <aside class="sidebar">
+    <h1 class="logo">🎵Mini-spotify</h1>
+<nav>
+    <ul>
+        <li><a href="#" class="nav-link active">Inicio</a></li>
+        <li><a href="#" class="nav-link">Favoritos</a></li>
+    </ul>
+</nav>
+</aside>
+
+<main class="main">
+    <section id="song-list" class="song-list"></section>
+    <footer id="player" class="player">
+        <p id="current song">Ninguna cancion en reproduccion</p>
+        <button id="play-pause" disabled>▶️</button>
+        <audio id="audio" preload="metadata"></audio>
+    </footer>
+</main>
+<script src="script.js"></script>
+</body>
+
+</html> 
